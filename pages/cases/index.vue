@@ -1,3 +1,17 @@
+<script>
+export default {
+  head: {
+    title: 'Hvad siger kunderne? - Bevägelse',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Jeg har meget på hjerte og kan fortælle længe. Men hvad siger kunderne? Alle dem der har lagt øre og krop til mine foredrag og input. Det kan du læse her'
+      }
+    ]
+  }
+}
+</script>
 <template>
   <div class="bg-white overflow-hidden">
 

@@ -1,3 +1,17 @@
+<script>
+export default {
+  head: {
+    title: 'Ydelser - Bevägelse',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Jeg afholder workshops og foredrag. Derudover tager jeg gerne ud til virksomheder eller private, der foretrækker det og har rammerne til det.'
+      }
+    ]
+  }
+}
+</script>
 <template>
   <div class="bg-white overflow-hidden">
 
@@ -274,9 +288,7 @@
         <template slot="headline">ER DU KLAR TIL AT TAGE FAT?</template>
         <template slot="teaser">Kontakt mig og få en aftale.</template>
         <template slot="button">
-          <a href="/kontakt/" class="mt-8 bg-bevagelse-yellow border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-extrabold text-bevagelse-blue-dark hover:bg-bevagelse-blue-dark hover:text-white no-underline uppercase">
-                Tryk på mig
-          </a>
+          <NuxtLink to="/kontakt/" class="mt-8 bg-bevagelse-yellow border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-extrabold text-bevagelse-blue-dark hover:bg-bevagelse-blue-dark hover:text-white no-underline uppercase">Kontakt</NuxtLink>
         </template>
         <template slot="image">
           <img class="transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20" src="~/assets/fodbold.jpg" alt="Fodbold">

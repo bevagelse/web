@@ -1,3 +1,18 @@
+<script>
+export default {
+  head: {
+    title: 'Velkommen til Bevägelse',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'BEVÄGELSE er dedikeret til forandring - Ikke en ”vi krydser fingre og håber på det bedste”-forandring, men den forandring, hvor vi selv styrer slagets gang.'
+      }
+    ]
+  }
+}
+</script>
+
 <template>
   <div>
     <FrontpageHero />

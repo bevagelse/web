@@ -1,3 +1,17 @@
+<script>
+export default {
+  head: {
+    title: 'Kontakt - Bevägelse',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Uanset om din henvendelse skyldes, du har tabt træningsmotivationen eller fundet et hul i kalenderen til en workshop med kollegaerne. Om bikini-sæsonen truer, eller skulderen driller. Skriv endelig! Så vender jeg tilbage hurtigst muligt.'
+      }
+    ]
+  }
+}
+</script>
 <template>
   <div class="bg-white overflow-hidden">
 
