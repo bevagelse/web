@@ -15,15 +15,10 @@ export default {
 <template>
   <div class="bg-white overflow-hidden">
 
-    <div class="relative bg-bevagelse-blue-light mb-12">
-      <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6">
-        <h1 class="mt-2 text-4xl mx-auto leading-8 font-poppins font-extrabold tracking-tight text-white uppercase sm:text-8xl">Om Bevägelse</h1>
-        <p class="relative w-1/2 text-xl text-white font-light pt-6 px-4 sm:px-6 lg:px-16">
-            Bag Bevägelse står jeg, Kenneth Petersen. Jeg er uddannet fysioterapeut, kostvejleder og personlig træner. Jeg har over 15 års professionel erfaring i at hjælpe mennesker med problematikker så som smerter, skader, stress og depression.
-        </p>
-        
-      </div>
-    </div>
+  <PageHero>
+    <template v-slot:headline>Om Bevägelse</template>
+    <template v-slot:teaser>Bag Bevägelse står jeg, Kenneth Petersen. Jeg er uddannet fysioterapeut, kostvejleder og personlig træner. Jeg har over 15 års professionel erfaring i at hjælpe mennesker med problematikker så som smerter, skader, stress og depression.</template>
+  </PageHero>
 
 
   <div class="relative max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8">

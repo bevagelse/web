@@ -15,17 +15,12 @@ export default {
 <template>
   <div class="bg-white overflow-hidden">
 
-    <div class="relative bg-bevagelse-blue-light mb-12">
-      <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6">
-        <h1 class="mt-2 text-4xl mx-auto leading-8 font-poppins font-extrabold tracking-tight text-white uppercase sm:text-8xl">Jeg glæder mig til at høre fra dig</h1>
-        <p class="relative w-1/2 text-xl text-white font-light pt-6 px-4 sm:px-6 lg:px-16">
-            Uanset om din henvendelse skyldes, du har tabt træningsmotivationen eller fundet et hul i kalenderen til en workshop med kollegaerne. Om bikini-sæsonen truer, eller skulderen driller. Skriv endelig! Så vender jeg tilbage hurtigst muligt.
-        </p>
-        
-      </div>
-    </div>
+  <PageHero>
+    <template v-slot:headline>Jeg glæder mig til at høre fra dig</template>
+    <template v-slot:teaser>Uanset om din henvendelse skyldes, du har tabt træningsmotivationen eller fundet et hul i kalenderen til en workshop med kollegaerne. Om bikini-sæsonen truer, eller skulderen driller. Skriv endelig! Så vender jeg tilbage hurtigst muligt.</template>
+  </PageHero>
 
-
+    
     <div class="relative max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
       <form action="https://app.99inbound.com/api/e/oNNqCv1X" method="POST" class="space-y-8 divide-y divide-gray-200">
         <div class="space-y-8 divide-y divide-gray-200 sm:space-y-5">

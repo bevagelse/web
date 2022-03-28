@@ -15,15 +15,10 @@ export default {
 <template>
   <div class="bg-white overflow-hidden">
 
-    <div class="relative bg-bevagelse-blue-light mb-32">
-      <div class="max-w-7xl mx-auto py-8 px-4 sm:px-6">
-        <h1 class="mt-2 text-4xl mx-auto leading-8 font-poppins font-extrabold tracking-tight text-white uppercase sm:text-8xl">Cases - hvad siger kunderne?</h1>
-        <p class="relative w-1/2 text-xl text-white font-light pt-6 px-4 sm:px-6 lg:px-16">
-            Jeg har meget på hjerte og kan fortælle længe. Men hvad siger kunderne? Alle dem der har lagt øre og krop til mine foredrag og input. Det kan du læse her
-        </p>
-        
-      </div>
-    </div>
+  <PageHero>
+    <template v-slot:headline>Cases - hvad siger kunderne?</template>
+    <template v-slot:teaser>Jeg har meget på hjerte og kan fortælle længe. Men hvad siger kunderne? Alle dem der har lagt øre og krop til mine foredrag og input. Det kan du læse her</template>
+  </PageHero>
 
     <!-- quote //-->
     <div class="relative max-w-4xl mx-auto py-16 mt-16 px-4 sm:px-6 lg:px-8">
