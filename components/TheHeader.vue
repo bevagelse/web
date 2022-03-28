@@ -6,7 +6,7 @@
         <div>
           <NuxtLink to="/" class="flex">
             <span class="sr-only">Bevägelse</span>
-            <img class="h-8 w-auto sm:h-16" src="/bevagelseDkRepo/logo-blue-light.svg" alt="">
+            <img class="h-8 w-auto sm:h-16" src="~/assets/logo-blue-light.svg" alt="">
           </NuxtLink>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
@@ -24,16 +24,7 @@
             <NuxtLink to="/om-bevaegelse/">Om Bevägelse</NuxtLink>
             <NuxtLink to="/cases/" >Cases</NuxtLink>
             <NuxtLink to="/kontakt/">Kontakt</NuxtLink>
-            <NuxtLink to="/template/" class="text-base text-xl no-underline font-extrabold uppercase text-gray-400 opacity-20 hover:text-bevagelse-blue-light">Skabelon</NuxtLink>
           </nav>
-          <div class="flex items-center md:ml-12">
-            <!-- <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900">
-              Sign in
-            </a> -->
-            <!-- <a href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm font-extrabold text-bevagelse-blue-dark uppercase bg-bevagelse-yellow hover:bg-bevagelse-blue-light hover:text-white no-underline">
-              Book en tid
-            </a> -->
-          </div>
         </div>
       </div>
     </div>
@@ -53,7 +44,7 @@
         <div class="pt-5 pb-6 px-5 sm:pb-8">
           <div class="flex items-center justify-between">
             <div>
-              <img class="h-8 w-auto" src="/logo.svg" alt="Bevägelse">
+              <img class="h-8 w-auto" src="~/assets/logo.svg" alt="Bevägelse">
             </div>
             <div class="-mr-2">
               <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
