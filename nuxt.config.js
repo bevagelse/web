@@ -1,11 +1,11 @@
 const config = {
-  routerBase: process.env.NODE_ENV == 'gh_pages' ? '/bevagelseDkRepo/' : '/'
+  routerBase: process.env.NODE_ENV == 'gh_pages' ? '/web/' : '/'
 };
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   router: {
-    base: '/bevagelseDkRepo/'
+    base: '/web/'
   },
   generate: {
     fallback: "404.html"
