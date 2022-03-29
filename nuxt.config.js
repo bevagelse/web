@@ -1,5 +1,5 @@
 const config = {
-  routerBase: process.env.NODE_ENV == 'gh_pages' ? '/' : '/'
+  routerBase: process.env.NODE_ENV == 'gh_pages' ? '/web/' : '/'
 };
 export default {
   // Target: https://go.nuxtjs.dev/config-target
