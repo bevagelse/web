@@ -1,11 +1,11 @@
 const config = {
-  routerBase: process.env.NODE_ENV == 'gh_pages' ? '/web/' : '/'
+  routerBase: process.env.NODE_ENV == 'gh_pages' ? '/' : '/'
 };
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   router: {
-    base: '/web/'
+    base: '/'
   },
   generate: {
     fallback: "404.html"
