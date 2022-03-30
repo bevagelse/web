@@ -161,8 +161,6 @@ export default {
         Få en bæredygtig strategi til et langt og godt (arbejds-)liv med kropslig velvære
       </template>
       <template v-slot:content>
-        <pre>Mangler billede fra Kenneth</pre>
-
           <h3 class="text-base">Form</h3>
           <p>3,5 timers workshop med viden og bevægelse</p>
 
@@ -219,8 +217,6 @@ export default {
         Genfind følelsen af at være tilpas i din egen krop og mærk forskellen!
       </template>
       <template v-slot:content>
-        <pre>Mangler billede fra Kenneth</pre>
-
           <h3 class="text-base">Form</h3>
           <p>3,5 timers workshop med ro, viden og brugbare øvelser</p>
 
