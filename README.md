@@ -2,6 +2,9 @@
 
 ## Build Setup
 
+1. Make changes on `master`
+
+2. Run these cmds
 ```bash
 # generate static project
 $ yarn generate
@@ -11,8 +14,22 @@ $ yarn deploy
 
 ```
 
+3. Login to Github with the `bevagelse` user (see 1pass)
+
+4. Go to settings and pages
+
+5. Make sure Custom domain is set to (www.bevagelse.dk)
+
+6. (also make sure nuxt.config.js has this)
+```vue
+const config = {
+  routerBase: process.env.NODE_ENV == 'gh_pages' ? '/web/' : '/'
+};
+```
 
 
+
+## Developer Setup (localhost)
 ```bash
 # install dependencies
 $ yarn install
