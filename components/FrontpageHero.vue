@@ -4,10 +4,11 @@
         <div class="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
           <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
             <span class="block xl:inline text-bevagelse-blue-dark">BEVÄGELSE</span>
-            <span class="block text-bevagelse-blue-light xl:inline">er dedikeret til forandring</span>
+            <span class="block text-bevagelse-blue-light xl:inline">er slow performance coaching</span>
           </h1>
           <p class="mt-3 max-w-md mx-auto text-base text-black sm:text-xl md:mt-5 md:max-w-3xl">
-            Ikke en ”vi krydser fingre og håber på det bedste”-forandring, men den forandring, hvor vi selv styrer slagets gang.
+            I en tid, hvor alting går stærkere, er bevägelse til, for at sætte tempoet ned.<br /><br />
+            Bevägelse er hjælp til dig, så du kan leve et liv fri for smerter, stress og bekymringer. Et liv, hvor tid, fordybelse, eftertænksomhed, glæde og en dyb indre grundlæggende ro, har en naturlig plads.
           </p>
           <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">

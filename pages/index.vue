@@ -1,18 +1,3 @@
-<script>
-export default {
-  head: {
-    title: 'Velkommen til Bevägelse',
-    meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'BEVÄGELSE er dedikeret til forandring - Ikke en ”vi krydser fingre og håber på det bedste”-forandring, men den forandring, hvor vi selv styrer slagets gang.'
-      }
-    ]
-  }
-}
-</script>
-
 <template>
   <div>
     <FrontpageHero />
@@ -93,7 +78,7 @@ export default {
             <svg class="absolute h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
             </svg>
-            <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Træningsplan</p>
+            <p class="ml-9 text-lg leading-6 font-medium text-gray-900">Coaching</p>
           </dt>
         </div>
 
@@ -130,11 +115,13 @@ export default {
     <!-- rte -->
     <div class="relative max-w-4xl mx-auto pb-16 px-4 sm:px-6 lg:px-16">
       <div class="mt-6 font-poppins prose prose-indigo prose-lg text-black mx-auto">
-        <p>Bevägelse er til for at hjælpe dig til at rykke dig. Kærligt og kvalificeret. For at vække din begejstring og dit gå-på-mod. For at udfordre og inspirere dig. For at styrke dig, så du fysisk og mentalt kan holde til at leve det liv, du ønsker. Og helst i rigtig mange år. </p>
+        <p>Bevägelse er til for at hjælpe dig til at sætte tempoet ned. Kærligt og kvalificeret. For at vække din indre ro og dit gå-på-mod. For at udfordre og inspirere dig. For at styrke dig, så du fysisk og mentalt kan holde til at leve det liv, du ønsker. Og helst i rigtig mange år.</p>
 
-        <p>Jeg tilbyder workshops og foredrag, men det er også muligt at få enkeltkonsultationer, hvis du har en specifikt udfordring, du ønsker hjælp til. Teknikkerne jeg præsenterer dig for bygger på en blanding af benhårde fysiologiske fakta og nyeste viden om krop og sind. De to dele hænger uløseligt sammen. Særligt når det handler om motionsvaner og motivation, men også når det gælder konkrete skader og effektiv genoptræning. </p>
+        <p>Jeg tilbyder undervisning, workshops og foredrag, der alle på hver sin måde kredser om begrebet ’slow performance’ - men det er også muligt at få enkeltkonsultationer, hvis du har en specifikt udfordring, du ønsker hjælp til.</p>
 
-        <p>De metoder og indsigter jeg deler, kommer til at gøre en forskel for dig. Når du træner eller går en tur. Når du er på arbejde, og når du holder fri. Netop fordi jeg ser på hele mennesket med muskler, der skal bringes i spil, og et hoved, der skal samarbejde. Ellers kommer vi ingen vegne, og det vil vi.</p>
+        <p>Teknikkerne jeg præsenterer dig for, bygger på en blanding af benhårde fysiologiske fakta og nyeste viden om krop og sind. De to dele hænger uløseligt sammen. Særligt når det handler om smerter og stress, men også når det gælder konkrete skader og effektiv genoptræning.</p>
+
+        <p>De metoder og indsigter jeg deler, kommer til at gøre en forskel for dig. Når du træner eller går en tur. Når du er på arbejde, og når du holder fri. Netop fordi jeg ser på hele mennesket med en krop, der skal bringes i spil, og et hoved, der skal samarbejde. Ellers kommer vi ingen vegne, og det vil vi –  i vores helt eget tempo.</p>
       </div>
     </div>
 
@@ -150,11 +137,11 @@ export default {
       <div class="mt-6 font-poppins prose prose-indigo prose-lg text-black mx-auto">
 
         <h2>En skildpadde som logo! Har han da helt tabt sutten?</h2>
-        <p>Jeg er uddannet fysioterapeut, kostvejleder og personlig træner. Jeg har stor respekt for viden og velafprøvede værktøjer inden for mine fag. Quick fixes tror jeg derimod ikke på. Punktum.</p>
+        <p>Jeg er uddannet fysioterapeut, kostvejleder og personlig træner. Jeg har stor respekt for viden og velafprøvede værktøjer inden for mine fag. Quick fixes tror jeg derimod ikke på. Punktum.</p>>
 
         <p>Skildpadden er et billede på visdom og det lange perspektiv. Det er ikke verdens hurtigste dyr, men den bevæger sig sikkert fremad. Min mission er at styrke dit skjold, så du kan nå dine mål. I dit tempo. Vi skærer ikke hjørner. Vi løber ikke hurtigere, end benene kan bære og tankerne følge med. På den måde sikrer vi, at vi ikke taber noget på vejen, hverken motivationen eller livsgnisten. Tværtimod.</p>
 
-        <p>Har du et dårligt knæ eller en rygrad som en regnorm? <a href="/kontakt">Kontakt mig</a>, jeg er klar til hjælpe.</p>
+        <p>Har du stress, smerter, smerter eller har du brug for hjælp til at træde på bremsen? <a href="/kontakt">Kontakt mig</a>, jeg er klar til hjælpe.</p>
         
         
       </div>
